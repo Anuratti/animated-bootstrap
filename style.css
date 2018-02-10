@@ -64,4 +64,5 @@ p{
 	background-image:url('img/pulse.png');
    background-repeat:no-repeat;
     min-height:400px;
+    background-position:center;
 }
