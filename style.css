@@ -43,7 +43,7 @@ p{
 }
 
 .parallax-img{
-	background-image:url('img/fullsize.png');
+	background-image:url('img/fullsize2.png');
     background-repeat:no-repeat;
     background-attachment:fixed;
     min-height:320px;
@@ -52,8 +52,12 @@ p{
 
 
 .display-4{
-	color:#04FE33;
+	color:#02C207;
 	font-size: 46px;
+}
+
+.display-3{
+	padding-top: 50px;
 }
 
 #main-img img{
