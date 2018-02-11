@@ -4,8 +4,7 @@ body{
 	position:relative;
 	padding-top: 70px;
 	font-size: 20px;
-	line-height: 1.6;
-	
+	line-height: 1.6;	
 }
 
 p{
@@ -62,6 +61,8 @@ p{
 
 #main-img img{
 	width: 100%;
+	cursor: zoom-in;
+	
 }
 
 #pulse{
@@ -69,4 +70,24 @@ p{
    background-repeat:no-repeat;
     min-height:400px;
     background-position:center;
+    margin-top: 70px;
+    opacity: 0.7;
+     transition: all 2s ease;
+}
+
+#pulse:hover{
+	opacity:1;
+	transform: scale(1.05);
+}
+
+a:hover{
+  color: #fff;
+}
+
+.modal #dro img{
+	width:1000px;
+}
+
+.modal #cam img{
+	width:600px;
 }
