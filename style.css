@@ -11,6 +11,11 @@ p{
 	font-family: 'Encode Sans Expanded', sans-serif;
 }
 
+#contact{
+	color:#1EE304;
+	padding-top: 20px;
+}
+
 .bg-dark{
 	background-color: #000 !important;
 }
@@ -49,6 +54,14 @@ p{
     margin-bottom: 50px;
 }
 
+.parallax-contact{
+	background-image:url('img/fullsize2.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    min-height:420px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
 
 .display-4{
 	color:#02C207;
@@ -90,4 +103,13 @@ a:hover{
 
 .modal #cam img{
 	width:600px;
+}
+
+.msg{
+	height:150px;
+	
+}
+
+.form-control{
+	opacity:0.9;
 }
