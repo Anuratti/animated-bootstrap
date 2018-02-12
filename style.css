@@ -11,15 +11,11 @@ p{
 	font-family: 'Encode Sans Expanded', sans-serif;
 }
 
-#contact{
-	color:#1EE304;
-	padding-top: 20px;
-}
-
 .bg-dark{
 	background-color: #000 !important;
 }
 
+/* nav brand span*/
 #brand-color{
 	color:#1EE304;
 }
@@ -28,6 +24,7 @@ p{
 	border-bottom: 3px solid #1EE304;
 }
 
+/* active class for scrollspy */
 .active{
 	border-bottom: 3px solid #1EE304;
 }
@@ -46,6 +43,7 @@ p{
 	background-color: #1FB402;
 }
 
+/* section-1 parallax */
 .parallax-img{
 	background-image:url('img/fullsize2.png');
     background-repeat:no-repeat;
@@ -54,6 +52,7 @@ p{
     margin-bottom: 50px;
 }
 
+/* contact parallax */
 .parallax-contact{
 	background-image:url('img/fullsize2.png');
     background-repeat:no-repeat;
@@ -63,6 +62,7 @@ p{
     padding-bottom: 50px;
 }
 
+/* custom headers */
 .display-4{
 	color:#02C207;
 	font-size: 46px;
@@ -72,10 +72,15 @@ p{
 	padding-top: 50px;
 }
 
-#main-img img{
+/* images on web */
+.main-img img{
 	width: 100%;
 	cursor: zoom-in;
 	
+}
+
+.overflow{
+	overflow: hidden;
 }
 
 #pulse{
@@ -85,7 +90,7 @@ p{
     background-position:center;
     margin-top: 70px;
     opacity: 0.7;
-     transition: all 2s ease;
+     transition: all 2s ease;   
 }
 
 #pulse:hover{
@@ -97,6 +102,7 @@ a:hover{
   color: #fff;
 }
 
+/* class for modal imgs*/
 .modal #dro img{
 	width:1000px;
 }
@@ -105,6 +111,7 @@ a:hover{
 	width:600px;
 }
 
+/* message form */
 .msg{
 	height:150px;
 	
@@ -112,4 +119,9 @@ a:hover{
 
 .form-control{
 	opacity:0.9;
+}
+
+#contact{
+	color:#1EE304;
+	padding-top: 20px;
 }
